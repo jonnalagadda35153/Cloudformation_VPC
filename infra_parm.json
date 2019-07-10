@@ -1,0 +1,158 @@
+[
+	{
+		"ParameterKey": "Region",
+		"ParameterValue": "us-east-1"
+	},
+	{
+		"ParameterKey": "CIDRRangeForVPC",
+		"ParameterValue": "10.0.0.0/16"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformPublicSubnet1",
+		"ParameterValue": "10.10.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformPublicSubnet2",
+		"ParameterValue": "10.11.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformPublicSubnet3",
+		"ParameterValue": "10.12.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformNonVulcanSubnet1",
+		"ParameterValue": "10.13.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformNonVulcanSubnet2",
+		"ParameterValue": "10.14.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformNonVulcanSubnet3",
+		"ParameterValue": "10.15.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformVulcanEKSSubnet1",
+		"ParameterValue": "10.16.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformVulcanEKSSubnet2",
+		"ParameterValue": "10.17.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformVulcanEKSSubnet3",
+		"ParameterValue": "10.18.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformDataLakeSubnet1",
+		"ParameterValue": "10.19.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformDataLakeSubnet2",
+		"ParameterValue": "10.20.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformDataLakeSubnet3",
+		"ParameterValue": "10.21.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformTransactionalDBSubnet1",
+		"ParameterValue": "10.22.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformTransactionalDBSubnet2",
+		"ParameterValue": "10.23.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformTransactionalDBSubnet3",
+		"ParameterValue": "10.24.0.0/24"
+	},
+    {
+		"ParameterKey": "CIDRRangeForAmWaterPlatformOSGISSubnet1",
+		"ParameterValue": "10.25.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformOSGISSubnet2",
+		"ParameterValue": "10.26.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformOSGISSubnet3",
+		"ParameterValue": "10.27.0.0/24"
+	},
+    {
+		"ParameterKey": "CIDRRangeForAmWaterPlatformESRIGISSubnet1",
+		"ParameterValue": "10.28.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformESRIGISSubnet2",
+		"ParameterValue": "10.29.0.0/24"
+	},
+	{
+		"ParameterKey": "CIDRRangeForAmWaterPlatformESRIGISSubnet3",
+		"ParameterValue": "10.30.0.0/24"
+	},
+	{
+		"ParameterKey": "AvailabilityZone1",
+		"ParameterValue": "us-east-1a"
+	},
+	{
+		"ParameterKey": "AvailabilityZone2",
+		"ParameterValue": "us-east-1b"
+	},
+	{
+		"ParameterKey": "AvailabilityZone3",
+		"ParameterValue": "us-east-1c"
+	},
+    {
+		"ParameterKey": "ShouldCreateNATGateway",
+		"ParameterValue": "True"
+	},
+    {
+		"ParameterKey": "LinuxBastionInstanceAMI",
+		"ParameterValue": "ami-0ff8a91507f77f867"
+	},
+    {
+		"ParameterKey": "WindowsBastionInstanceAMI",
+		"ParameterValue": "ami-09ef280df1a6a5330"
+	},
+    {
+		"ParameterKey": "BastionHostLinuxInstanceType",
+		"ParameterValue": "t2.micro"
+	},
+    {
+		"ParameterKey": "BastionHostWindowsInstanceType",
+		"ParameterValue": "t2.micro"
+	},
+    {
+		"ParameterKey": "KeyPairToLogIntoLinuxInstance",
+		"ParameterValue": ""
+	},
+    {
+		"ParameterKey": "KeyPairToLogIntoWindowsInstance",
+		"ParameterValue": ""
+	},
+    {
+        "ParameterKey": "BastionSecurityGroupAcess",
+		"ParameterValue": "0.0.0.0/0"
+	},
+    {
+		"ParameterKey": "TenantNameTAG",
+		"ParameterValue": "AM Water"
+	},
+	{
+		"ParameterKey": "EnvironmentTAG",
+		"ParameterValue": "SB"
+	},
+	{
+		"ParameterKey": "ProductLineTAG",
+		"ParameterValue": "Water Management"
+	},
+    {
+		"ParameterKey": "PlatfromServicesTAG",
+		"ParameterValue": "Network"
+	},
+	{
+		"ParameterKey": "ApplicationNameTAG",
+		"ParameterValue": "N/A"
+	}
+]
